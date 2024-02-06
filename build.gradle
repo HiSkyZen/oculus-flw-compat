@@ -147,20 +147,16 @@ repositories {
             includeGroup "maven.modrinth"
         }
     }
-
-    /*maven {
-        name "tterrag maven"
-        url "https://maven.tterrag.com/"
-    }*/
+    maven {
+        name = "Curseforge"
+        url = "https://cursemaven.com"
+    }
     maven {
         name = 'tterrag maven'
         url = 'https://maven.tterrag.com/'
     }
     maven {
-        url "https://maven.tterrag.com/"
-    }
-    maven {
-        url "https://maven.blamejared.com"
+        url = "https://maven.blamejared.com"
     }
 
 }
